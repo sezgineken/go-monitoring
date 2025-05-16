@@ -19,7 +19,7 @@ Go dilini [https://go.dev/dl](https://go.dev/dl) adresinden indirip bilgisayarı
 Bu repoyu ZIP olarak indirip klasöre çıkarın veya Git ile klonlayın:
 
 ```bash
-git clone https://github.com/kullaniciadi/go-monitoring.git
+git clone https://github.com/sezgineken/go-monitoring.git
 ```
 
 ### Mail adresinizi tanımlayın
@@ -30,6 +30,11 @@ from := "seninmailin@gmail.com"
 password := "uygulama_sifren"
 to := "uyarinin_gidecegi_mail@gmail.com"
 ```
+
+## 📧 Not
+E-posta gönderebilmek için uygulama şifresi kullanmalısınız. Gmail kullanıcıları için:
+
+[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) adresinden uygulama şifresi oluşturabilirsiniz.
 
 ### Uygulamayı derleyin
 Terminali (CMD veya PowerShell) açın ve proje klasörüne gidin:
@@ -48,11 +53,6 @@ Uygulama çalışmaya başladıktan sonra aşağıdaki adrese giderek logları g
 ```arduino
 http://localhost:8080
 ```
-
-## 📧 Not
-E-posta gönderebilmek için uygulama şifresi kullanmalısınız. Gmail kullanıcıları için:
-
-[https://myaccount.google.com/apppasswords](https://myaccount.google.com/apppasswords) adresinden uygulama şifresi oluşturabilirsiniz.
 
 ## 💬 Katkı ve Geri Bildirim
 Her türlü geri bildirim ve katkıya açığım. Forklayarak kendi versiyonunuzu oluşturabilir veya pull request göndererek katkıda bulunabilirsiniz.
